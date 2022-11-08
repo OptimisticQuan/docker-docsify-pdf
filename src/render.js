@@ -46,7 +46,7 @@ const renderPdf = async ({ mainMdFilename, pathToStatic, pathToPublic, docsifyRe
       displayHeaderFooter: true,
       path: path.resolve(pathToPublic),
       margin: { left: '1cm', right: '1cm', top: '1cm', bottom: 70 },
-      timeout: 560000 // 5 minutes
+      timeout: 7200000 // 2 hours
     }
 
     console.log(pdfOptions)
