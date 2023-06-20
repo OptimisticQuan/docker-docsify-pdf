@@ -1,4 +1,4 @@
-FROM node:18.11.0-alpine3.16
+FROM node:18.16.0-alpine3.17
 
 RUN echo @edge http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositories && apk add --no-cache curl bash bash-completion icu-data-full chromium nss freetype harfbuzz ca-certificates openjdk11 wqy-zenhei@edge
 
